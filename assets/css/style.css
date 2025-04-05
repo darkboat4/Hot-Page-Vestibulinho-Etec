@@ -1,0 +1,431 @@
+:root{
+    --azulao: #0D1926;
+    --azul: #182D45;
+    --ciano: #10E698;
+    --branco: #ffffff;
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: arial, Helvetica, sans-serif;
+    
+}
+
+*{margin: 0;padding: 0;}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    overflow-x: hidden;
+
+    font-family: var(--font2);
+
+    width: 100vw;
+    height: auto;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100vw;
+    height: auto;
+}
+
+div.container1{
+    width: 100vw;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(../img/Entrada-edited-scaled-e1713375801423.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(3px);
+    font-family: var(--font1);
+}
+div.container1 div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+div.container1 div p:nth-child(1){
+    width: 15vw;
+    height: auto;
+    font-size: 2em;
+
+    margin-left: 10vw;
+
+    font-weight: lighter;
+
+    text-align: center;
+    color: var(--branco);
+
+
+}
+
+div.container1 div div.title{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: auto;
+}
+div.container1 div div.title p{
+    margin-right: 8vw;
+    margin: 5px;
+    margin-right: 8vw;
+;
+}
+
+div.container1 div div.title p:nth-child(1){
+    color: var(--ciano);
+    font-size: 1.9em;
+
+    margin-left: 0;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.container1 div div.title p:nth-child(2){
+    color: var(--branco);
+    font-size: 1.8em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif ;
+}
+div.container1 div div.title p:nth-child(3){
+    color: var(--ciano);
+
+    text-decoration: underline;
+
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+section.title{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--branco);
+    flex-direction: column;
+
+    padding-bottom: 10vh;
+}
+section.title p{
+    text-align: center;
+
+    width: 40vw;
+    height: auto;
+
+    margin-bottom: 5px;
+}
+section.title p:nth-child(1){
+    font-size: 2.2em;
+    font-weight: bold;
+    padding-bottom: 3vh;
+}
+section.title p:nth-child(2){
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+
+}
+div.container2{
+    width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    position: relative;
+}
+div.container2 div.cursos{
+    width: 49vw;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.container2 div.line{
+    width: 3px;
+    height: 90%;
+
+    background-color: var(--ciano);
+}
+div.container2 div.cursos img{
+    width: 5vw;
+    height: auto;
+
+    object-fit: contain;
+    object-position: center;
+}
+div.container2 div.cursos p.curso-title{
+    color: var(--ciano);
+    font-size: 1.8em;
+    margin: 20px;
+}
+div.container2 div.cursos p.curso-content{
+    color: var(--azul);
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 40vw;
+    height: auto;
+
+    line-height: 25px;
+}
+
+div.line-h{
+    position: absolute;
+
+    background-color: var(--ciano);
+
+    width: 85vw;
+    height: 3px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+
+div.container3{
+    width: 100vw;
+    height: auto;
+
+    margin-bottom: 6vh;
+}
+
+div.container3 div.titles{
+    width: 100vw;
+    height: 20vh;
+
+    margin-top: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.container3 div.titles p:nth-child(1){
+    color: var(--azul);
+    font-size: 1.3em;
+    margin-bottom: 5vh;
+}
+div.container3 div.titles p:nth-child(2){
+    color: var(--ciano);
+    font-size: 3em;
+
+    font-weight: bolder;
+    margin-bottom: 5vh;
+}
+
+div.box-contents-potencial{
+    width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+div.box-contents-potencial div.svgs{
+    width: 65vw;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+
+}div.box-contents-potencial div.svgs img{
+    object-fit: contain;
+    object-position: center;
+    width: 5vw;
+    height: auto;
+}
+div.box-contents-potencial div.svgs div{
+    width: 16vw;
+    height: 3px;
+    background-color: var(--ciano);
+    margin: 0 30px 0 30px;
+}
+div.box-contents-potencial div.potential-titles{
+    width: 65vw;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    color: var(--azul);
+
+    
+    
+
+}
+
+div.box-contents-potencial div.potential-titles p{
+    width: 15vw;
+    height: auto;
+    text-align: center; font-weight: bold;
+}
+
+div.box-contents-potencial div.potential-content{
+    width: 70vw;
+    height: 20vh;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+div.box-contents-potencial div.potential-content p{
+    width: 20vw;
+    height: auto;
+    text-align: center;
+    color: var(--azul);
+}
+
+div.container4{
+    width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-bottom: 10vh;
+}
+
+div.container4 div.box1{
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: var(--azulao);
+
+}
+div.container4 div.box1 p{
+    margin-left: 8%;  
+    width: 35vw;
+    text-align: left;
+}
+div.container4 div.box1 p:nth-child(1){
+    color: var(--ciano);
+    font-weight: bolder;
+    font-size: 1.8em;
+    margin-top: 10%;    
+}
+div.container4 div.box1 p:nth-child(2){
+    color: var(--branco);
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    margin-top: 3%;  
+    line-height: 35px;
+}
+div.container4 div.box2{
+    width: 35vw;
+    height: 65vh;
+
+    background-color: var(--branco);
+    border: 1px solid black;
+    margin-right: 10vw;
+    margin-top: 10vh;
+}
+
+div.container5{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+div.container5 img{
+    width: 60vw;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+div.container5 div{
+    width: 35vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+div.container5 div div{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+div.container5 div div p{
+    margin-left: 2vw;
+}
+div.container5 div p:nth-child(1){
+    margin-top: 5vw;
+    color: var(--ciano);
+    font-weight: bold;
+    font-size: 1.7em;
+    width: 19vw;
+    height: auto;
+}
+div.container5 div p:nth-child(2){
+    margin-top: 15px;
+    color: var(--azul);
+    font-size: 1em;
+}
+
+div.container5 div a{
+    width: 80%;
+    height: 8vh;
+    background-color: var(--ciano);
+    text-align: center;
+    text-decoration: none;
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s linear;
+}
+div.container5 div a:hover{
+    transform: translateY(-5px);
+    transition: .4s linear;
+}
+
+footer{
+    width: 100vw;
+    height: 5vh;
+}
